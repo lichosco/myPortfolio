@@ -1,0 +1,189 @@
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>About</title>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
+	<link rel="stylesheet" href="css/main.css">
+	
+</head>
+<style>
+@media screen and (max-height: 450px) {
+  .overlay {overflow-y: auto;}
+  .overlay a {font-size: 20px}
+  .closebtn {
+    font-size: 40px !important;
+    top: 15px;
+    right: 35px;
+  }
+}
+</style>
+<body>
+<header>
+	<div class="container-fluid">
+		
+			
+				<div id="myNav" class="overlay">
+               		<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+               		<div class="overlay-content">
+                 		<a href="about.html">About</a>
+                 		<a href="#work">My Work</a>
+                 		<a href="#">Contact</a>
+  					</div>
+				</div>
+			
+
+			
+		
+		
+	</div>
+</header>
+<header class="menu">
+	<div class="container-fluid">
+		<div class="row">
+		<div class="col-xs-10 col-md-3 col-xs-push-3 col-md-push-5">
+			<a href="index.html"><img src="img/licho-01.png" class="logo" alt=""></a>
+		</div>
+			<div class="col-xs-2 col-md-2 col-md-push-8">
+				<span class="menu-hamb" style="font-size:40px;cursor:pointer" onclick="openNav()">☰</span>
+			</div>
+		</div>
+	</div>
+	
+</header>
+<section class="bg-about bg-fixed">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<div class="describe bg-fixed ">
+					<h1>Front-end developer from Santiago de Chile</h1>
+				
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<section class="bg-content">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<h1 class="tittle text-center">About</h1>
+			</div>
+			<div class="col-md-2 col-xs-push-5 text-center">
+				<hr class="underliner">
+			</div>
+		</div>
+		<div class="row">
+			
+			<div class="col-md-6 col-xs-push-3 text-center">
+			<div class="describe-about">
+				
+				<p> Me llamo Lissette, conocí el mundo front-end por esas casualidades de la vida y llegué para quedarme. Lograr desarrollar increibles <em>web sites</em> con las herramientas más actuales y así avanzar al ritmo del mundo informático será siempre la meta.<br> Si te gusta mi trabajo, puedes contactarme!! </p>
+			</div>
+			<div class="social">
+				<div class="box">
+					<a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+				</div>
+				<div class="box">
+					<a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+				</div>
+				<div class="box">
+					<a href="#"><i class="fa fa-github-alt" aria-hidden="true"></i></a>
+				</div>
+			</div>
+			
+			</div>
+		</div>
+	</div>
+</section>
+<section class="bg-skills bg-fixed">
+	<div class="container bg-gray">
+		<div class="row">
+			<div class="col-md-2">
+				<div class="skills">
+					<h2>My Skills</h2>
+				</div>
+			</div>
+			<div class="col-md-10">
+				<div class="skills-data">
+					<h2>html</h2>
+					<div class="box-skills-1">
+						<p>Elements semantic</p>
+					<p>Block elements</p>
+					<p>Lineal elements</p>
+					<p>Forms</p>
+					<p>Inputs types</p>
+					</div>
+					
+				</div>
+				<div class="skills-data">
+					<h2>css</h2>
+					<div class="box-skills-1">
+						<p>Display Value</p>
+					<p>box model</p>
+					<p>basic positioning</p>
+					<p>font styling and web font</p>
+					<p>backgrounds</p>
+					<p>pseudo selectors</p>
+					<p>animation and transitions</p>
+					<p>Frameworks: Boostrap</p>
+					</div>
+					
+				</div>
+				<div class="skills-data">
+					<h2>js</h2>
+					<div class="box-skills-1">
+						<p>Sintaxys</p>
+					<p>data type</p>
+					<p>Functions</p>
+					<p>OOP</p>
+					<p>jQuery</p>
+					<p>Frameworks:AngulaJS</p>
+					</div>
+					
+				</div>
+				<div class="skills-data">
+					<h2>responsive<br> web</h2>
+					<div class="box-skills-1">
+					<p>@media queries</p>
+					<p>relative sizing</p></div>
+					
+				</div>
+				<div class="skills-data">
+					<h2>Version<br> controls</h2>
+					<div class="box-skills-1">
+						<p>Git</p>
+					<p>GitHub</p>
+					</div>
+					
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<footer>
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-md-2">
+				<a href=""><img class="logo-foot" src="img/licho-01.png" alt=""></a>
+			</div>
+			<div class="col-md-1">
+				<i class="fa fa-copyright" aria-hidden="true"></i>
+			</div>
+			<div class="col-md-4">
+				<p>Todos los derechos reservados</p>
+			</div>
+		</div>
+	</div>
+</footer>
+<script>
+		function openNav() {
+    document.getElementById("myNav").style.height = "100%";
+}
+
+function closeNav() {
+    document.getElementById("myNav").style.height = "0%";
+}
+	</script>	
+</body>
+</html>
